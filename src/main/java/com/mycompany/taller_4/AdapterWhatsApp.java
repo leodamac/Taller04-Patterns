@@ -8,7 +8,7 @@ package com.mycompany.taller_4;
  *
  * @author cesar
  */
-public class AdapterWhatsApp extends NotificadorCorreo{
+public class AdapterWhatsApp implements Notificador{
     private WhatsAppAPI adaptee(){
     WhatsAppAPI TA =new WhatsAppAPI();
     return TA;

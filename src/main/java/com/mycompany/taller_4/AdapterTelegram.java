@@ -8,7 +8,7 @@ package com.mycompany.taller_4;
  *
  * @author cesar
  */
-public class AdapterTelegram extends NotificadorCorreo{
+public class AdapterTelegram implements Notificador{
     private TelegramAPI adaptee(){
     TelegramAPI TA =new TelegramAPI();
     return TA;
