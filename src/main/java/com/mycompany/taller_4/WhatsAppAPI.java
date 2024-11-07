@@ -8,9 +8,8 @@ package com.mycompany.taller_4;
  *
  * @author cesar
  */
-public class CreatorInforme{
-    public Informe CrearInforme(String Datos){
-        Object informe=new Object();
-        return (Informe) informe;
+public class WhatsAppAPI {
+    public void enviarAPI(String Mensaje){
+        
     }
 }

@@ -8,6 +8,9 @@ package com.mycompany.taller_4;
  *
  * @author cesar
  */
-public class CCInformePDF {
-    
+public class CCInformePDF extends CreatorInforme{
+    public informePDF crearInforme(String datos){
+        informePDF informePdf=new informePDF();
+        return informePdf;
+    }
 }
